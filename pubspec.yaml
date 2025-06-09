@@ -1,0 +1,42 @@
+name: quakereadynep
+description: A Flutter application for earthquake preparedness in Nepal.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  torch_light: ^1.0.0
+  vibration: ^2.0.0
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/quakeready_logo.png
+    - assets/yfgn_logo.png
+    - assets/siren.mp3
+    - assets/audio/samanya_jankari.mp3
+    - assets/audio/apatkalin_sampark.mp3
+    - assets/audio/garnuparne_nagarnuparne.mp3
+    - assets/audio/retrofit.mp3
+    - assets/audio/khelharu.mp3
+    - assets/audio/info_content.mp3
+    - assets/audio/dos_donts_content.mp3
+    - assets/audio/retrofitting_content.mp3
+  fonts:
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: fonts/NotoSansDevanagari-Regular.ttf
